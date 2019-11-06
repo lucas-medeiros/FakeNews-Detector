@@ -2,12 +2,11 @@ console.log("Hello World");
 
 paragraphs = document.getElementsByTagName('a');
 
-var confiaveis = ['.globo.','.estadao.','glo.bo','.e-farsas.','.jusbrasil.','folha.','.sensacionalista.', '.ceticismopolitico.', '.correiodopoder.', 
-					'.criticapolitica.', '.diariodobrasil.', '.folhadopovo.', '.folhapolitica.','.gazetasocial.', '.implicante.', '.jornalivre.', 
-					'.pensabrasil.', '.wikipedia.','.oantagonista.']
-var naoconfiaveis = ['.oantagonista.','.sensacionalista.','.fake.','.ceticismopolitico.','.correiodopoder.','.criticapolitica.','.globo.', 
-						'.estadao.', '.folha.uol.', '.gazetadopovo.', '.uol.', '.veja.abril.', '.r7.', '.exame.abril.', '.edition.cnn.', 
-						'.epoca.globo.', '.terra.', '.band.uol.']
+var confiaveis = ['.globo.','.estadao.','glo.bo','.globo.', '.estadao.', '.folha.uol.', '.gazetadopovo.', 
+		  '.uol.', '.veja.abril.', '.r7.', '.exame.abril.', '.edition.cnn.', '.epoca.globo.', '.terra.', '.band.uol.']
+var naoconfiaveis = ['.sensacionalista.', '.ceticismopolitico.', '.correiodopoder.', '.criticapolitica.', '.diariodobrasil.', 
+		     '.folhadopovo.', '.folhapolitica.','.gazetasocial.', '.implicante.', '.jornalivre.', '.pensabrasil.', 
+		     '.wikipedia.','.oantagonista.']
 var i=0
 var j=0
 var conflen = confiaveis.length;
@@ -44,4 +43,4 @@ for (k=0;k<arr.length; k++){
 
 
 }
-	}
+}
